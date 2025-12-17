@@ -1,10 +1,14 @@
 
-baseURL = "https://rescuepang-blog.pages.dev/"
+baseURL = "https://rescuepang.com/"
 languageCode = "en-us"
-title = "Rescuepang Blog"
+title = "Rescuepang"
 theme = "ananke"
-buildFuture = true
-paginate = 10
+
+enableRobotsTXT = true
+buildFuture = false
+
+[pagination]
+pagerSize = 10
 
 [params]
   mainSections = ["posts"]
